@@ -5,7 +5,7 @@
     color: #000;
     text-decoration: none;
 }
-a:hover {
+header a:hover{
     color: #911c1c;
 }
 
@@ -16,12 +16,11 @@ nav{
     border-radius: 1rem;
 }
 
-.logoprincipal {
+.logoprincipal img {
     display: flex;
-    height:10%;
-    width:13%;
-    border-radius: 0.7rem;
+    border-radius: 0.75rem;
 }
+
 
 .menu {
     display: flex;
@@ -31,41 +30,58 @@ nav{
     font-size: 1.6rem;
     width: 100%;
 }
-
 .menu form {
     display: flex;
     height: 2.5rem;
 }
-
 .menu form button:hover {
     background-color: #911c1c;
     color: #fff;
     cursor: pointer;
 }
-.menu img:hover {
+header .menu img:hover {
     cursor: pointer;
     border: #911c1c 0.1rem solid;
     border-radius: 20%;
 }
+
 
 main {
     display: grid;
     grid-template-columns: 270px 270px 270px 270px;
     grid-template-rows:  320px 320px 320px;
     gap: 10rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     justify-content: center;
 }
-
 main section{
     display: grid;
     border: #911c1c 2px solid;
     border-radius: 1rem;
     align-items: center;
 }
-
 main section:hover {
-    background-color: rgb(179, 137, 120);
+    background-color: rgb(184, 180, 168);
     color: #fff;
     cursor: pointer;
+}
+main section img {
+    transition: transform 0.3s;
+}
+main section:hover img {
+    transform: scale(1.05);
+}
+
+
+footer .menu img {
+    border-radius: 20%;
+}
+footer .menu img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.copy {
+    margin-top: 1rem;
+    font-size: 1.3rem;
 }

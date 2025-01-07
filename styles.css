@@ -6,19 +6,20 @@
     text-decoration: none;
 }
 header a:hover{
-    color: #911c1c;
+    color: #a71a1a;
 }
 
 nav{
     display: flex;
-    border-top: #911c1c 0.4rem solid;
-    border-bottom: #911c1c 0.4rem solid;
+    border-top: #a71a1a 0.4rem solid;
+    border-bottom: #a71a1a 0.4rem solid;
     border-radius: 1rem;
 }
 
 .logoprincipal img {
     display: flex;
-    border-radius: 0.75rem;
+    border-radius: 0.7rem;
+    height: 10rem;
 }
 
 
@@ -35,21 +36,20 @@ nav{
     height: 2.5rem;
 }
 .menu form button:hover {
-    background-color: #911c1c;
+    background-color: #a71a1a;
     color: #fff;
     cursor: pointer;
 }
 header .menu img:hover {
     cursor: pointer;
-    border: #911c1c 0.1rem solid;
+    border: #a71a1a 0.1rem solid;
     border-radius: 20%;
 }
 
-
 main {
     display: grid;
-    grid-template-columns: 270px 270px 270px 270px;
-    grid-template-rows:  320px 320px 320px;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows:  320px 320px 320px 320px 320px;
     gap: 10rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -57,7 +57,7 @@ main {
 }
 main section{
     display: grid;
-    border: #911c1c 2px solid;
+    border: #a71a1a 2px solid;
     border-radius: 1rem;
     align-items: center;
 }
@@ -81,7 +81,18 @@ footer .menu img:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
-.copy {
-    margin-top: 1rem;
+.copy, .contacto{
     font-size: 1.3rem;
+}
+#insta img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+#x img{
+    width: 3rem;
+    height: 3rem;
+}
+#yt img{
+    width: 5.4rem;
+    height: 4.4rem;
 }

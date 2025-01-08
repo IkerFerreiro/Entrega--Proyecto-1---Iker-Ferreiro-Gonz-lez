@@ -9,7 +9,7 @@ header a:hover{
     color: #a71a1a;
 }
 
-nav{
+header nav{
     display: flex;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
@@ -74,10 +74,10 @@ main section:hover img {
 }
 main section p {
     text-align: center;
-    padding: 0.35rem;
+    padding: 0.3rem;
     margin-top: 2rem;
     background-color: rgb(184, 180, 168);
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 main section p:hover {
     cursor: pointer;
@@ -87,6 +87,12 @@ main section p:hover {
 }
 
 
+footer nav{
+    display: flex;
+    border-top: #a71a1a 0.4rem solid;
+    border-bottom: #a71a1a 0.4rem solid;
+    border-radius: 1rem;
+}
 footer .menu img {
     border-radius: 20%;
 }
@@ -108,4 +114,25 @@ footer .menu img:hover {
 #yt img{
     width: 5.4rem;
     height: 4.4rem;
+}
+
+
+
+.sidebar1{
+    display: grid;
+    grid-template-columns:  1fr;
+    width: 8%;
+    margin-top: 2rem;
+    border-right: #a71a1a 0.4rem solid;
+    border-top: #a71a1a 0.4rem solid;
+    border-bottom: #a71a1a 0.4rem solid;
+    border-radius: 1rem;
+    align-items: center;
+    margin-left: -10%;
+}
+.sidebar1 .aside-ligas{
+    list-style: none; 
+}
+#ligas:hover + .sidebar1{
+    left: 0;
 }

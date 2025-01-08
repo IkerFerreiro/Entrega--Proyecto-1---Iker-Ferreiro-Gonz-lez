@@ -118,21 +118,28 @@ footer .menu img:hover {
 
 
 
-.sidebar1{
+.sidebar1 nav{
+    position: fixed;
     display: grid;
     grid-template-columns:  1fr;
-    width: 8%;
+    width: 12%;
     margin-top: 2rem;
     border-right: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
     border-radius: 1rem;
     align-items: center;
-    margin-left: -10%;
+    margin-left: -15%;
+    transition: left 0.3s ease-in-out;
+    ul{
+        list-style: none; 
+    }
 }
-.sidebar1 .aside-ligas{
-    list-style: none; 
+
+.sidebar1 nav ul .l1, .l2, .l3{
+    margin-left: -15%;
 }
-#ligas:hover + .sidebar1{
-    left: 0;
+
+header:hover + .nav1{
+    left: 15%;
 }

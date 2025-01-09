@@ -118,28 +118,47 @@ footer .menu img:hover {
 
 
 
-.sidebar1 nav{
+
+
+.sidebar1 nav {
     position: fixed;
     display: grid;
     grid-template-columns:  1fr;
-    width: 12%;
+    width: 10%;
     margin-top: 2rem;
     border-right: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
     border-radius: 1rem;
     align-items: center;
-    margin-left: -15%;
-    transition: left 0.3s ease-in-out;
+    margin-left: -15rem;
+    transition: 1s;
+    
     ul{
         list-style: none; 
     }
 }
-
 .sidebar1 nav ul .l1, .l2, .l3{
-    margin-left: -15%;
+    margin-left: -20%;
 }
 
-header:hover + .nav1{
-    left: 15%;
+header:hover + .sidebar1 nav {
+    margin-left: 1rem;
+    
+}
+
+ 
+
+.sidebar2 nav {
+    position: fixed;
+    display: flex ;
+    width: 10%;
+    margin-top: 2rem;
+    border-left: #a71a1a 0.4rem solid;
+    border-top: #a71a1a 0.4rem solid;
+    border-bottom: #a71a1a 0.4rem solid;
+    border-radius: 1rem;
+    ul{
+        list-style: none; 
+    }
 }

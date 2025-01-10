@@ -124,14 +124,15 @@ footer .menu img:hover {
     position: fixed;
     display: grid;
     grid-template-columns: 1fr;
+    left: 0;
+    top:1;
     width: 10%;
     margin-top: 2rem;
     border-right: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
     border-radius: 1rem;
-    margin-left: -15rem;
-    transition: 1s;
+    
 }
 .sidebar1 ul{
     list-style: none; 
@@ -141,7 +142,7 @@ footer .menu img:hover {
 }
 header:hover + .sidebar1 nav {
     margin-left: 1rem;
-    
+    transition: 1s ease-out;
 }
 
  
@@ -149,21 +150,20 @@ header:hover + .sidebar1 nav {
 .sidebar2 nav {
     position: fixed;
     display: grid;
-    right: 0;
-    top:0;
     grid-template-columns: 1fr;
+    right: 0;
+    top:2;
     width: 10%;
+    margin-top: 2rem;
     border-left: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
     border-radius: 1rem;
-    margin-top: 13rem;
-    margin-right: -15rem;
-    transition: 1s;
 }
 .sidebar2 nav ul{
     list-style: none;
 }
-header:hover + .sidebar2 nav {
-    margin-right: 20rem;
+footer:hover + .sidebar2 nav{
+    margin-right: 1rem;
+    transition: 1s ease-out;
 }

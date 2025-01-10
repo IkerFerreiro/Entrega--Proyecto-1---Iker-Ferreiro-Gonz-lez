@@ -48,8 +48,8 @@ header .menu img:hover {
 
 main {
     display: grid;
-    grid-template-columns: 270px 270px 270px;
-    grid-template-rows:  320px 320px 320px 320px 320px;
+    grid-template-columns: repeat(3, 270px);
+    grid-template-rows:  repeat(5, 320px);
     gap: 10rem;
     margin-top:3%;
     margin-bottom: 6%;
@@ -123,25 +123,22 @@ footer .menu img:hover {
 .sidebar1 nav {
     position: fixed;
     display: grid;
-    grid-template-columns:  1fr;
+    grid-template-columns: 1fr;
     width: 10%;
     margin-top: 2rem;
     border-right: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
     border-radius: 1rem;
-    align-items: center;
     margin-left: -15rem;
     transition: 1s;
-    
-    ul{
-        list-style: none; 
-    }
+}
+.sidebar1 ul{
+    list-style: none; 
 }
 .sidebar1 nav ul .l1, .l2, .l3{
     margin-left: -20%;
 }
-
 header:hover + .sidebar1 nav {
     margin-left: 1rem;
     
@@ -151,14 +148,22 @@ header:hover + .sidebar1 nav {
 
 .sidebar2 nav {
     position: fixed;
-    display: flex ;
+    display: grid;
+    right: 0;
+    top:0;
+    grid-template-columns: 1fr;
     width: 10%;
-    margin-top: 2rem;
     border-left: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
     border-radius: 1rem;
-    ul{
-        list-style: none; 
-    }
+    margin-top: 13rem;
+    margin-right: -15rem;
+    transition: 1s;
+}
+.sidebar2 nav ul{
+    list-style: none;
+}
+header:hover + .sidebar2 nav {
+    margin-right: 20rem;
 }

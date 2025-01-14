@@ -5,6 +5,12 @@
     color: #000;
     text-decoration: none;
 }
+body{
+    background-image: url(images/bg/fondo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
 header a:hover{
     color: #a71a1a;
 }
@@ -52,7 +58,7 @@ main {
     grid-template-rows:  repeat(5, 320px);
     gap: 10rem;
     margin-top:3%;
-    margin-bottom: 6%;
+    margin-bottom: 10%;
     justify-content: center;
 }
 main section{
@@ -68,19 +74,23 @@ main section img {
 main section:hover img {
     transform: scale(1.05);
 }
-main section p {
+main section ul {
     text-align: center;
-    padding: 0.3rem;
-    margin-top: 2rem;
+    align-items: center;
+    padding: 1%;
     background-color: rgb(184, 180, 168);
     border-radius: 1rem;
+    list-style: none;
 }
-main section p:hover {
+main section ul:hover {
     cursor: pointer;
     background-color: #a71a1a;
-    color: #fff;
+    p{ color: #fff;}
     transform: scale(0.95);
 }
+ .precio{
+    font-size: 1.1rem;
+ }
 
 
 footer nav{
@@ -124,7 +134,7 @@ footer .menu img:hover {
     border-right: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;
-    margin-left: -15%;
+    margin-left: -30%;
     border-radius: 1rem;
 }
 .sidebar1 ul{
@@ -147,7 +157,7 @@ header:hover + .sidebar1 nav {
     top:2;
     width: 10%;
     margin-top: 2rem;
-    margin-right: -15%;
+    margin-right: -30%;
     border-left: #a71a1a 0.4rem solid;
     border-top: #a71a1a 0.4rem solid;
     border-bottom: #a71a1a 0.4rem solid;

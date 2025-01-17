@@ -13,7 +13,9 @@
     height: 100%;
     z-index: -1; 
 }
-
+#flecha {
+    display: none;
+}
 header a:hover{
     color: #a71a1a;
 }
@@ -72,6 +74,7 @@ main section:hover {
 }
 main section img {
     transition: transform 0.3s;
+    
 }
 main section:hover img {
     transform: scale(1.05);
@@ -145,7 +148,7 @@ footer .menu img:hover {
 .sidebar1 ul{
     list-style: none; 
 }
-.sidebar1 nav ul .l1, .l2, .l3{
+.sidebar1 nav ul .l1{
     margin-left: -20%;
 }
 header:hover + .sidebar1 nav {
@@ -177,4 +180,38 @@ header:hover + .sidebar1 nav {
 header:hover + .sidebar1 + .sidebar2 nav {
     margin-right: 1rem;
     transition: margin 1s ease-out;
+}
+
+@media (max-width: 1500px) {
+    .sidebar1, .sidebar2 {
+        display: none;
+    }
+}
+@media (max-width: 1200px) {
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 270px);
+    }
+}
+@media (max-width: 880px) {
+    .logoprincipal img{
+        margin-right: 0px;
+        height: 8rem;
+        margin: auto;
+    }
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 300px);
+    }
+    .noshow {
+        display: none;
+    }
+    .show{
+        display: flex;
+        margin-left: -2rem;
+    }
+    #flecha{
+        display: flex;
+    }
+
 }

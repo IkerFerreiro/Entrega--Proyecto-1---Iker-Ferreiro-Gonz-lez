@@ -13,11 +13,12 @@
     <nav> 
         <a class="logoprincipal" title="Inicio" href="index.html"><img src="images/logo.jpg" alt="Logo de la página web"></a>
         <ul class="menu">
-            <li class="ligas"><a href="#">LIGAS</a></li>
-            <li><a href="#">PRENDAS</a></li>
-            <li class="busqueda"><form action="/buscar" method="get"><input type="text" name="query" placeholder="Buscar Equipo"> <button type="submit">Buscar</button></form></li>
-            <li><a href="#">OFERTAS</a></li>
-            <li><img src="images/carrito.png" alt="Carrito de la compra" height="60px" width="60px"></a></li>
+            <li class="noshow"><a href="#">LIGAS</a></li>
+            <li class="noshow"><a href="#">PRENDAS</a></li>
+            <li class="show"><form action="/buscar" method="get"><input type="text" name="query" placeholder="Buscar Equipo"> <button type="submit">Buscar</button></form></li>
+            <li class="noshow"><a href="#">OFERTAS</a></li>
+            <li class="noshow"><img src="images/carrito.png" alt="Carrito de la compra" height="60px" width="60px"></a></li>
+            <li id="flecha"><img src="images/flecha.png" alt="Flecha desplegable" height="40px" width="70px"></a></li>
         </ul>
     </nav>
 </header>               
@@ -26,8 +27,8 @@
     <nav>
         <ul>
             <li class="l1"><a href="#"><img src="images/ligas/laliga.png" alt="Liga Española" width="180px" height="100px"></a></li>
-            <li class="l2"><a href="#"><img src="images/ligas/seriea.png" alt="Liga Italiana" width="180px" height="120px"></a></li>
-            <li class="l3"><a href="#"><img src="images/ligas/premier.png" alt="Liga Inglesa" width="190px" height="110px"></a></li>
+            <li class="l1"><a href="#"><img src="images/ligas/seriea.png" alt="Liga Italiana" width="180px" height="120px"></a></li>
+            <li class="l1"><a href="#"><img src="images/ligas/premier.png" alt="Liga Inglesa" width="190px" height="110px"></a></li>
             <li><a href="#"><img src="images/ligas/bundesliga.png" alt="Liga Alemana" width="107px" height="110px"></a></li>
             <li><a href="#"><img src="images/ligas/ligue1.png" alt="Liga Francesa" width="100px" height="100px"></a></li>
         </ul>
@@ -135,7 +136,26 @@
             <li><p>COPENHAGEN 1ª (24-25)</p></li>
             <li class="precio"><p>21.00€</p></li>
         </ul>
-    </a></section></ul>
+    </a></section>
+    <section><a href="https://www.futbollufo.com/camisetas-de-futbol-getafe-cf-segunda-20232024-p-33799.html" rel="noopener" class="c15" title="Camiseta del Getafe FC"><img src="images/getafe.png" alt="Camiseta Getafe" width="300px" height="300px">
+        <ul>
+            <li><p>GETAFE 2ª (23-24)</p></li>
+            <li class="precio"><p>21.00€</p></li>
+        </ul>
+    </a></section>
+    <section><a href="https://www.futbollufo.com/camisetas-de-futbol-botafogo-primera-20242025-p-41073.html" rel="noopener" class="c15" title="Camiseta del Botafogo"><img src="images/botafogo.png" alt="Camiseta Botafogo" width="300px" height="300px">
+        <ul>
+            <li><p>BOTAFOGO 1ª (24-25)</p></li>
+            <li class="precio"><p>21.00€</p></li>
+        </ul>
+    </a></section>
+    <section><a href="https://www.futbollufo.com/camiseta-equipo-nacional-japon-primera-20242025-p-40448.html" rel="noopener" class="c15" title="Camiseta de Japón"><img src="images/japon.png" alt="Camiseta Japón" width="300px" height="300px">
+        <ul>
+            <li><p>JAPON 1ª (24-25)</p></li>
+            <li class="precio"><p>21.00€</p></li>
+        </ul>
+    </a></section>
+
     <div class="background"><img src="images/bg/fondo.jpg" alt="fondo" width="100%" height="100%"></div>
 
 </main>
@@ -143,7 +163,7 @@
 <footer>
     <nav>
         <ul class="menu">
-            <li class="copy"><a href="#">&copy; 2023 Golazo Shop. Todos los derechos reservados.</a></li>
+            <li class="copy"><a href="#">&copy; 2023 Golazo Shop</a></li>
             <li id="insta"><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a></li>
             <li id="x"><a href="https://x.com/home"><img src="images/x.jpg" alt="X"></a></li>
             <li id="yt"><a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube"></a></li>

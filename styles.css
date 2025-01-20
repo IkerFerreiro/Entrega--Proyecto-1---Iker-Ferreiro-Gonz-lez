@@ -29,7 +29,7 @@ header nav{
 .logoprincipal img {
     display: flex;
     border-radius: 0.7rem;
-    height: 10rem;
+    height: 8rem;
 }
 .menu {
     display: flex;
@@ -39,9 +39,13 @@ header nav{
     font-size: 1.6rem;
     width: 100%;
 }
-.menu form {
-    display: flex;
-    height: 2.5rem;
+header nav .menu li input{
+    border-radius: 9rem;
+    height: 1.8rem;
+}
+header nav .menu li button{;
+    border-radius: 9rem;
+    height: 1.8rem;
 }
 .menu form button:hover {
     background-color: #a71a1a;
@@ -50,9 +54,31 @@ header nav{
 }
 header .menu img:hover {
     cursor: pointer;
-    border: #a71a1a 0.1rem solid;
-    border-radius: 20%;
+    transform: scale(1.08);
 }
+
+.container{
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    margin-top: -2rem;
+    margin-left: 70%;
+    padding-left: auto;
+    text-align: center;
+    border-radius: 1rem;
+    background-color: #a71a1a;
+}
+a:hover{
+    color: #fff;
+}
+.container ul{
+    list-style: none;
+    display : none;
+}
+
+
+
 
 
 
@@ -113,8 +139,10 @@ footer .menu img:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
-.copy, .contacto{
+.copy, .contacto {
+    display: flex;
     font-size: 1.2rem;
+    margin: auto;
 }
 #insta img{
     width: 4.5rem;
@@ -212,6 +240,17 @@ header:hover + .sidebar1 + .sidebar2 nav {
     }
     #flecha{
         display: flex;
+        margin-left: -2rem;
+    }
+    header li button {
+        display: flex;
+        margin-left: 2.8rem; 
+    }
+    header li input{
+        text-align: center;
     }
 
+    #flecha:hover + .container ul{
+        display: fixed;
+    }
 }

@@ -43,7 +43,7 @@ header nav .menu li input{
     border-radius: 9rem;
     height: 1.8rem;
 }
-header nav .menu li button{;
+header nav .menu li button{
     border-radius: 9rem;
     height: 1.8rem;
 }
@@ -76,6 +76,13 @@ a:hover{
     list-style: none;
     display : none;
 }
+
+
+
+
+
+
+
 
 
 
@@ -250,7 +257,5 @@ header:hover + .sidebar1 + .sidebar2 nav {
         text-align: center;
     }
 
-    #flecha:hover + .container ul{
-        display: fixed;
-    }
+    
 }

@@ -9,19 +9,32 @@
     <title>Golazo Shop</title>
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
 <body>
-<header>
-    <nav> 
-        <a class="logoprincipal" title="Inicio" href="index.html"><img src="images/logo.jpg" alt="Logo de la página web"></a>
-        <ul class="menu">
-            <li class="noshow"><a href="#">LIGAS</a></li>
-            <li class="noshow"><a href="#">PRENDAS</a></li>
-            <li class="show"><form action="/buscar" method="get"><input type="text" name="query" placeholder="Buscar Equipo"><button type="submit">Buscar</button></form></li>
-            <li  class="noshow"><a href="#">OFERTAS</a></li>
-            <li class="noshow"><img src="images/carrito.png" alt="Carrito de la compra" height="60px" width="60px"></a></li>
-            <li id="flecha"><img src="images/flecha.png" alt="Flecha desplegable" height="40px" width="70px"></a></li>
-        </ul>
-    </nav>
-</header>               
+    <header>
+        <nav> 
+            <a class="logoprincipal" title="Inicio" href="index.html"><img src="images/logo.jpg" alt="Logo de la página web"></a>
+            <ul class="menu">
+                <li class="noshow"><a href="#">LIGAS</a></li>
+                <li class="noshow"><a href="#">PRENDAS</a></li>
+                <li class="show"><form action="/buscar" method="get"><input type="text" name="query" placeholder="Buscar Equipo"><button type="submit">Buscar</button></form></li>
+                <li class="noshow"><a href="#">OFERTAS</a></li>
+                <li class="noshow"><img src="images/carrito.png" alt="Carrito de la compra" height="60px" width="60px"></li>
+            </ul>  
+    </header> 
+    <div id="container">
+        <flexbox container>
+            <nav>
+                <ul>
+                    <li><a href="#">LIGAS</a></li>
+                    <li><a href="#">PRENDAS</a></li>
+                    <li><a href="#">OFERTAS</a></li>
+                    <li><a href="#">CARRITO</a></li>
+                </ul>
+            </nav>
+        </flexbox>
+    </div> 
+
+
+
 <aside class="sidebar1">
     <nav>
         <ul>
@@ -44,18 +57,6 @@
         </ul>
     </nav>
 </aside>
-
-<div class="container">
-    <flexbox container >
-        <ul>
-            <li><a href="#">LIGAS</a></li>
-            <li><a href="#">PRENDAS</a></li>
-            <li><a href="#">OFERTAS</a></li>
-            <li><a href="#">CARRITO</a></li>
-            <li><a href="#">CONTACTO</a></li>
-        </ul>
-    </flexbox>
-</div>
 
 <main>
     <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-valencia-cf-segunda-20222023-p-19692.html" rel="noopener" class="c1" title="Camiseta del Valencia"><img src="images/valencia.png" alt="Camiseta valencia" width="270px" height="300px">

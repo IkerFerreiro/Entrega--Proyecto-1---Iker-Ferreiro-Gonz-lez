@@ -13,7 +13,7 @@
     height: 100%;
     z-index: -1; 
 }
-#flecha {
+.flecha {
     display: none;
 }
 header a:hover{
@@ -52,41 +52,24 @@ header nav .menu li button{
     color: #fff;
     cursor: pointer;
 }
-header .menu img:hover {
-    cursor: pointer;
-    transform: scale(1.08);
+#container{
+    display: none;
 }
-
-.container{
-    position: fixed;
-    display: flex;
-    left: 0;
-    right: 0;
-    margin-top: -2rem;
-    margin-left: 70%;
-    padding-left: auto;
-    text-align: center;
-    border-radius: 1rem;
+#container nav ul{
     background-color: #a71a1a;
-}
-a:hover{
-    color: #fff;
-}
-.container ul{
     list-style: none;
-    display : none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 5rem; 
+    font-size: 0.8rem;
+    gap: 10%;
+    border-radius: 1rem;
+    a{
+        color: #fff;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 main {
@@ -127,7 +110,7 @@ main section ul:hover {
     p{ color: #fff;}
     transform: scale(0.95);
 }
- .precio{
+.precio{
     font-size: 1.1rem;
  }
 
@@ -186,10 +169,6 @@ footer .menu img:hover {
 .sidebar1 nav ul .l1{
     margin-left: -20%;
 }
-header:hover + .sidebar1 nav {
-    margin-left: 1rem;
-    transition: margin 1s ease-out;
-}
 
 
 .sidebar2 nav {
@@ -245,7 +224,7 @@ header:hover + .sidebar1 + .sidebar2 nav {
         display: flex;
         margin-left: -2rem;
     }
-    #flecha{
+    .flecha{
         display: flex;
         margin-left: -2rem;
     }
@@ -256,6 +235,7 @@ header:hover + .sidebar1 + .sidebar2 nav {
     header li input{
         text-align: center;
     }
-
-    
+    header:hover + #container{
+        display: block;
+    }
 }

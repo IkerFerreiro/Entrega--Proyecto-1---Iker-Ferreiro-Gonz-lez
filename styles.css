@@ -169,7 +169,10 @@ footer .menu img:hover {
 .sidebar1 nav ul .l1{
     margin-left: -20%;
 }
-
+header:hover + .sidebar1 nav{
+    margin-left: 1rem;
+    transition: margin 1s ease-out;
+}
 
 .sidebar2 nav {
     position: fixed;
@@ -235,7 +238,7 @@ header:hover + .sidebar1 + .sidebar2 nav {
     header li input{
         text-align: center;
     }
-    header:hover + #container{
+    nav:hover + #container{
         display: block;
     }
 }

@@ -62,7 +62,8 @@ header nav .menu li button{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    height: 5rem; 
+    height: 5rem;
+    width: 100%; 
     font-size: 0.8rem;
     gap: 10%;
     border-radius: 1rem;

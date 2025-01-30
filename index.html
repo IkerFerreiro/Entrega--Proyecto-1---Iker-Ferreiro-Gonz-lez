@@ -9,178 +9,161 @@
     <title>Golazo Shop</title>
     <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
 <body>
-    <header>
-        <nav> 
-            <a class="logoprincipal" title="Inicio" href="index.html"><img src="images/logo.jpg" alt="Logo de la página web"></a>
-            <ul class="menu">
-                <li class="noshow"><a href="#">LIGAS</a></li>
-                <li class="noshow"><a href="#">PRENDAS</a></li>
-                <li class="show"><form action="/buscar" method="get"><input type="text" name="query" placeholder="Buscar Equipo"><button type="submit">Buscar</button></form></li>
-                <li class="noshow"><a href="#">OFERTAS</a></li>
-                <li class="noshow"><img src="images/carrito.png" alt="Carrito de la compra" height="60px" width="60px"></li>
-            </ul>
-        </nav> 
-        <div id="container">
-            <flexbox container>
+    <div class="container">
+        <header>
+                <nav> 
+                    <a class="logoprincipal" title="Inicio" href="index.html"><img src="images/logo.jpg" alt="Logo de la página web"></a>
+                    <ul class="menu">
+                        <li class="noshow"><a href="#">LIGAS</a></li>
+                        <li class="noshow"><a href="#">PRENDAS</a></li>
+                        <li class="show"><form action="/buscar" method="get"><input type="text" name="query" placeholder="Buscar Equipo"><button type="submit">Buscar</button></form></li>
+                        <li class="noshow"><a href="#">OFERTAS</a></li>
+                        <li class="noshow"><img src="images/carrito.png" alt="Carrito de la compra" height="60px" width="60px"></li>
+                    </ul>
+                </nav> 
+        </header> 
+
+        <main>
+            <aside class="sidebar1">
                 <nav>
                     <ul>
-                        <li><a href="#">LIGAS</a></li>
-                        <li><a href="#">PRENDAS</a></li>
-                        <li><a href="#">OFERTAS</a></li>
-                        <li><a href="#">CARRITO</a></li>
+                        <li class="l1"><a href="#"><img src="images/ligas/laliga.png" alt="Liga Española" width="180px" height="100px"></a></li>
+                        <li class="l1"><a href="#"><img src="images/ligas/seriea.png" alt="Liga Italiana" width="180px" height="120px"></a></li>
+                        <li class="l1"><a href="#"><img src="images/ligas/premier.png" alt="Liga Inglesa" width="190px" height="110px"></a></li>
+                        <li><a href="#"><img src="images/ligas/bundesliga.png" alt="Liga Alemana" width="107px" height="110px"></a></li>
+                        <li><a href="#"><img src="images/ligas/ligue1.png" alt="Liga Francesa" width="100px" height="100px"></a></li>
+                        <li><img src="images/ligas/turca.png" alt="Liga Turca" width="110px" height="100px"></li>
+                        <li><img src="images/ligas/portuguesa.jpg" alt="Liga Portuguesa" width="110px" height="100px"></li>
+                        <li><img src="images/ligas/saudi.png" alt="Liga Saudí" width="110px" height="100px"></li>
+                        <li><img src="images/ligas/mls.png" alt="Liga Estadounidense" width="100px" height="90px"></li>
+                        <li><img src="images/ligas/belga.jpg" alt="Liga Belga" width="110px" height="100px"></li>
                     </ul>
                 </nav>
-            </flexbox>
-        </div>      
-    </header> 
-<aside class="sidebar1">
-    <nav>
-        <ul>
-            <li class="l1"><a href="#"><img src="images/ligas/laliga.png" alt="Liga Española" width="180px" height="100px"></a></li>
-            <li class="l1"><a href="#"><img src="images/ligas/seriea.png" alt="Liga Italiana" width="180px" height="120px"></a></li>
-            <li class="l1"><a href="#"><img src="images/ligas/premier.png" alt="Liga Inglesa" width="190px" height="110px"></a></li>
-            <li><a href="#"><img src="images/ligas/bundesliga.png" alt="Liga Alemana" width="107px" height="110px"></a></li>
-            <li><a href="#"><img src="images/ligas/ligue1.png" alt="Liga Francesa" width="100px" height="100px"></a></li>
-        </ul>
-    </nav>
-</aside>
-<aside class="sidebar2">
-    <nav>
-        <ul>
-            <li><img src="images/ligas/turca.png" alt="Liga Turca" width="110px" height="100px"></li>
-            <li><img src="images/ligas/portuguesa.jpg" alt="Liga Portuguesa" width="110px" height="100px"></li>
-            <li><img src="images/ligas/saudi.png" alt="Liga Saudí" width="110px" height="100px"></li>
-            <li><img src="images/ligas/mls.png" alt="Liga Estadounidense" width="100px" height="90px"></li>
-            <li><img src="images/ligas/belga.jpg" alt="Liga Belga" width="110px" height="100px"></li>
-        </ul>
-    </nav>
-</aside>
+            </aside>
+            <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-valencia-cf-segunda-20222023-p-19692.html" rel="noopener" class="c1" title="Camiseta del Valencia"><img src="images/valencia.png" alt="Camiseta valencia" width="270px" height="300px">
+                <ul>
+                    <li><p>VALENCIA CF 2ª (22-23)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-aston-villa-primera-20222023-p-19577.html" rel="noopener" class="c2" title="Camiseta del Aston Villa"><img src="images/villa.png" alt="Camiseta villa" width="280px" height="300px">
+                <ul>
+                    <li><p>ASTON VILLA 1ª (22-23)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>   
+            <section><a href="https://www.futbollufo.com/camiseta-futbol-psg-retro-primera-20182019-p-7947.html" rel="noopener" class="c3" title="Camiseta del PSG"><img src="images/psg.png" alt="Camiseta psg" width="270px" height="300px">
+                <ul>
+                    <li><p>PSG 1ª (18-19)</p></li>
+                    <li class="precio"><p>26.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/primera-camiseta-del-boca-juniors-20182019-p-3147.html" rel="noopener" class="c4" title="Camiseta de Boca Juniors"><img src="images/boca.png" alt="Camiseta boca" width="270px" height="300px">
+                <ul>
+                    <li><p>BOCA JUNIORS 1ª (18-19)</p></li>
+                    <li class="precio"><p>18.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/primera-camiseta-del-atletico-madrid-20182019-2xl4xl-p-3376.html" rel="noopener" class="c5" title="Camiseta del Atletico de Madrid"><img src="images/atleti.png" alt="Camiseta atleti" width="270px" height="300px">
+                <ul>
+                    <li><p>ATLÉTICO DE MADRID 1ª (18-19)</p></li>
+                    <li class="precio"><p>18.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-manchester-city-primera-20222023-p-17340.html" rel="noopener" class="c6" title="Camiseta del Manchester City"><img src="images/city.png" alt="Camiseta city" width="270px" height="300px">
+                <ul>
+                    <li><p>MANCHESTER CITY 1ª (22-23)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/tercera-camiseta-del-fc-liverpool-20182019-2xl4xl-p-3375.html" rel="noopener" class="c7" title="Camiseta del Liverpool"><img src="images/liverpool.png" alt="Camiseta liverpool" width="270px" height="300px">
+                <ul>
+                    <li><p>LIVERPOOL 3ª (18-19)</p></li>
+                    <li class="precio"><p >18.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/camisetas-de-futbol-real-madrid-retro-primera-2013-p-44291.html" rel="noopener" class="c8" title="Camiseta del Real Madrid"><img src="images/madrid.png" alt="Camiseta madrid" width="270px" height="300px">
+                <ul>
+                    <li><p>REAL MADRID CF 1ª (13-14)</p></li>
+                    <li class="precio"><p>26.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/camiseta-futbol-manchester-united-segunda-20072008-p-6784.html" rel="noopener" class="c9" title="Camiseta del Manchester United"><img src="images/manunited.png" alt="Camiseta manunited" width="250px" height="300px">
+                <ul>
+                    <li><p>MANCHESTER UNITED 2ª (07-08)</p></li>
+                    <li class="precio"><p>26.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-bayern-munich-primera-20222023-p-17103.html" rel="noopener" class="c10" title="Camiseta del Bayern Munchen"><img src="images/munchen.png" alt="Camiseta munchen" width="270px" height="300px">
+                <ul>
+                    <li><p>BAYERN DE MÚNICH 1ª (22-23)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-fc-barcelona-primera-20232024-p-29383.html" rel="noopener" class="c11" title="Camiseta del Barcelona CF"><img src="images/negreira.png" alt="Camiseta negreira" width="230px" height="290px">
+                <ul>
+                    <li><p>FC BARCELONA 1ª (23-24)</p></li>
+                    <li class="precio"><p>18.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/primera-camiseta-de-per%C3%BA-2018-2019-p-1712.html" rel="noopener" class="c12" title="Camiseta de Perú"><img src="images/peru.png" alt="Camiseta peru" width="290px" height="300px">
+                <ul>
+                    <li><p>PERÚ 1ª (18-19)</p></li>
+                    <li class="precio"><p>18.90€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/segunda-camiseta-de-colombia-2018-2019-p-1695.html" rel="noopener" class="c13" title="Camiseta de Colombia"><img src="images/colombia.png" alt="Camiseta colombia" width="280px" height="300px">
+                <ul>
+                    <li><p>COLOMBIA 2ª (18-19)</p></li>
+                    <li class="precio"><p>18.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-espa%C3%B1a-primera-20222023-p-23152.html" rel="noopener" class="c14" title="Camiseta de España"><img src="images/españa.png" alt="Camiseta españa" width="270px" height="300px">
+                <ul>
+                    <li><p>ESPAÑA 1ª (22-23)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-fc-copenhagen-primera-20242025-p-44214.html" rel="noopener" class="c15" title="Camiseta del Copenhagen"><img src="images/cop.png" alt="Camiseta copenhagen" width="300px" height="300px">
+                <ul>
+                    <li><p>COPENHAGEN 1ª (24-25)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/camisetas-de-futbol-getafe-cf-segunda-20232024-p-33799.html" rel="noopener" class="c15" title="Camiseta del Getafe FC"><img src="images/getafe.png" alt="Camiseta Getafe" width="300px" height="300px">
+                <ul>
+                    <li><p>GETAFE 2ª (23-24)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/camisetas-de-futbol-botafogo-primera-20242025-p-41073.html" rel="noopener" class="c15" title="Camiseta del Botafogo"><img src="images/botafogo.png" alt="Camiseta Botafogo" width="300px" height="300px">
+                <ul>
+                    <li><p>BOTAFOGO 1ª (24-25)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
+            <section><a href="https://www.futbollufo.com/camiseta-equipo-nacional-japon-primera-20242025-p-40448.html" rel="noopener" class="c15" title="Camiseta de Japón"><img src="images/japon.png" alt="Camiseta Japón" width="300px" height="300px">
+                <ul>
+                    <li><p>JAPON 1ª (24-25)</p></li>
+                    <li class="precio"><p>21.00€</p></li>
+                </ul>
+            </a></section>
 
-<main>
-    <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-valencia-cf-segunda-20222023-p-19692.html" rel="noopener" class="c1" title="Camiseta del Valencia"><img src="images/valencia.png" alt="Camiseta valencia" width="270px" height="300px">
-        <ul>
-            <li><p>VALENCIA CF 2ª (22-23)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-aston-villa-primera-20222023-p-19577.html" rel="noopener" class="c2" title="Camiseta del Aston Villa"><img src="images/villa.png" alt="Camiseta villa" width="280px" height="300px">
-        <ul>
-            <li><p>ASTON VILLA 1ª (22-23)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>   
-    <section><a href="https://www.futbollufo.com/camiseta-futbol-psg-retro-primera-20182019-p-7947.html" rel="noopener" class="c3" title="Camiseta del PSG"><img src="images/psg.png" alt="Camiseta psg" width="270px" height="300px">
-        <ul>
-            <li><p>PSG 1ª (18-19)</p></li>
-            <li class="precio"><p>26.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/primera-camiseta-del-boca-juniors-20182019-p-3147.html" rel="noopener" class="c4" title="Camiseta de Boca Juniors"><img src="images/boca.png" alt="Camiseta boca" width="270px" height="300px">
-        <ul>
-            <li><p>BOCA JUNIORS 1ª (18-19)</p></li>
-            <li class="precio"><p>18.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/primera-camiseta-del-atletico-madrid-20182019-2xl4xl-p-3376.html" rel="noopener" class="c5" title="Camiseta del Atletico de Madrid"><img src="images/atleti.png" alt="Camiseta atleti" width="270px" height="300px">
-        <ul>
-            <li><p>ATLÉTICO DE MADRID 1ª (18-19)</p></li>
-            <li class="precio"><p>18.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-manchester-city-primera-20222023-p-17340.html" rel="noopener" class="c6" title="Camiseta del Manchester City"><img src="images/city.png" alt="Camiseta city" width="270px" height="300px">
-        <ul>
-            <li><p>MANCHESTER CITY 1ª (22-23)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/tercera-camiseta-del-fc-liverpool-20182019-2xl4xl-p-3375.html" rel="noopener" class="c7" title="Camiseta del Liverpool"><img src="images/liverpool.png" alt="Camiseta liverpool" width="270px" height="300px">
-        <ul>
-            <li><p>LIVERPOOL 3ª (18-19)</p></li>
-            <li class="precio"><p >18.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/camisetas-de-futbol-real-madrid-retro-primera-2013-p-44291.html" rel="noopener" class="c8" title="Camiseta del Real Madrid"><img src="images/madrid.png" alt="Camiseta madrid" width="270px" height="300px">
-        <ul>
-            <li><p>REAL MADRID CF 1ª (13-14)</p></li>
-            <li class="precio"><p>26.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/camiseta-futbol-manchester-united-segunda-20072008-p-6784.html" rel="noopener" class="c9" title="Camiseta del Manchester United"><img src="images/manunited.png" alt="Camiseta manunited" width="250px" height="300px">
-        <ul>
-            <li><p>MANCHESTER UNITED 2ª (07-08)</p></li>
-            <li class="precio"><p>26.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-bayern-munich-primera-20222023-p-17103.html" rel="noopener" class="c10" title="Camiseta del Bayern Munchen"><img src="images/munchen.png" alt="Camiseta munchen" width="270px" height="300px">
-        <ul>
-            <li><p>BAYERN DE MÚNICH 1ª (22-23)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-fc-barcelona-primera-20232024-p-29383.html" rel="noopener" class="c11" title="Camiseta del Barcelona CF"><img src="images/negreira.png" alt="Camiseta negreira" width="230px" height="290px">
-        <ul>
-            <li><p>FC BARCELONA 1ª (23-24)</p></li>
-            <li class="precio"><p>18.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/primera-camiseta-de-per%C3%BA-2018-2019-p-1712.html" rel="noopener" class="c12" title="Camiseta de Perú"><img src="images/peru.png" alt="Camiseta peru" width="290px" height="300px">
-        <ul>
-            <li><p>PERÚ 1ª (18-19)</p></li>
-            <li class="precio"><p>18.90€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/segunda-camiseta-de-colombia-2018-2019-p-1695.html" rel="noopener" class="c13" title="Camiseta de Colombia"><img src="images/colombia.png" alt="Camiseta colombia" width="280px" height="300px">
-        <ul>
-            <li><p>COLOMBIA 2ª (18-19)</p></li>
-            <li class="precio"><p>18.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-espa%C3%B1a-primera-20222023-p-23152.html" rel="noopener" class="c14" title="Camiseta de España"><img src="images/españa.png" alt="Camiseta españa" width="270px" height="300px">
-        <ul>
-            <li><p>ESPAÑA 1ª (22-23)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/nueva-camisetas-de-futbol-fc-copenhagen-primera-20242025-p-44214.html" rel="noopener" class="c15" title="Camiseta del Copenhagen"><img src="images/cop.png" alt="Camiseta copenhagen" width="300px" height="300px">
-        <ul>
-            <li><p>COPENHAGEN 1ª (24-25)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/camisetas-de-futbol-getafe-cf-segunda-20232024-p-33799.html" rel="noopener" class="c15" title="Camiseta del Getafe FC"><img src="images/getafe.png" alt="Camiseta Getafe" width="300px" height="300px">
-        <ul>
-            <li><p>GETAFE 2ª (23-24)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/camisetas-de-futbol-botafogo-primera-20242025-p-41073.html" rel="noopener" class="c15" title="Camiseta del Botafogo"><img src="images/botafogo.png" alt="Camiseta Botafogo" width="300px" height="300px">
-        <ul>
-            <li><p>BOTAFOGO 1ª (24-25)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
-    <section><a href="https://www.futbollufo.com/camiseta-equipo-nacional-japon-primera-20242025-p-40448.html" rel="noopener" class="c15" title="Camiseta de Japón"><img src="images/japon.png" alt="Camiseta Japón" width="300px" height="300px">
-        <ul>
-            <li><p>JAPON 1ª (24-25)</p></li>
-            <li class="precio"><p>21.00€</p></li>
-        </ul>
-    </a></section>
+            <div class="background"><img src="images/bg/fondo.jpg" alt="Imagen de un estadio de futbol de fondo" width="100%" height="100%"></div>
 
-    <div class="background"><img src="images/bg/fondo.jpg" alt="fondo" width="100%" height="100%"></div>
+        </main>
 
-</main>
-
-<footer>
-    <nav>
-        <ul class="menu">
-            <li class="copy"><a href="#">&copy; 2023 Golazo Shop</a></li>
-            <li id="insta"><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a></li>
-            <li id="x"><a href="https://x.com/home"><img src="images/x.jpg" alt="X"></a></li>
-            <li id="yt"><a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube"></a></li>
-            <li class="contacto"><a href="#">CONTACTO</a></li>
-        </ul>
-    </nav>
-    <p>
-</footer>
+        <footer>
+            <nav>
+                <ul class="menu">
+                    <li class="copy"><a href="#">&copy; 2023 Golazo Shop</a></li>
+                    <li id="insta"><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="Instagram"></a></li>
+                    <li id="x"><a href="https://x.com/home"><img src="images/x.jpg" alt="X"></a></li>
+                    <li id="yt"><a href="https://www.youtube.com"><img src="images/youtube.png" alt="Youtube"></a></li>
+                    <li class="contacto"><a href="#">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
